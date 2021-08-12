@@ -13,5 +13,5 @@ default = ["std"]
 std = ["molecule/std"]
 
 [dependencies]
-molecule = { version = "0.6", default-features = false }
+molecule = { version = "0.8.0-alpha", default-features = false }
 cfg-if = "0.1"
