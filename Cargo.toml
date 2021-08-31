@@ -1,6 +1,6 @@
 [package]
 name = "ckb-standalone-types"
-version = "0.0.1-pre.1"
+version = "0.1.1"
 authors = ["jjy <jjyruby@gmail.com>"]
 edition = "2018"
 license = "MIT"
@@ -13,5 +13,5 @@ default = ["std"]
 std = ["molecule/std"]
 
 [dependencies]
-molecule = { version = "0.6", default-features = false }
-cfg-if = "0.1"
+molecule = { version = "0.7", default-features = false }
+cfg-if = "1.0"
