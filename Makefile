@@ -1,6 +1,6 @@
 .PHONY: gen check-moleculec-version install-tools clear
 MOLC := moleculec
-MOLC_VERSION := 0.6.0
+MOLC_VERSION := 0.7.1
 GEN_MOL_IN_DIR := schemas
 GEN_MOL_OUT_DIR := src/generated
 GEN_MOL_FILES := ${GEN_MOL_OUT_DIR}/blockchain.rs
